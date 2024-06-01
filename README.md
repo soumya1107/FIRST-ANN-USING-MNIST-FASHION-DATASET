@@ -16,6 +16,8 @@ This repository contains a neural network implementation for classifying the Fas
 - [Usage](#usage)
 - [License](#license)
 
+![image](https://github.com/soumya1107/FIRST-ANN-USING-MNIST-FASHION-DATASET/assets/64662510/a63db089-7db8-40c6-b7f0-74443679be5c)
+
 ## Introduction
 
 Fashion MNIST is a dataset of Zalando's article images, consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes.
@@ -33,3 +35,36 @@ The dataset contains 10 classes:
 - 6: Shirt
 - 7: Sneaker
 -
+![image](https://github.com/soumya1107/FIRST-ANN-USING-MNIST-FASHION-DATASET/assets/64662510/3fdc0127-5af2-44a8-9b3f-a5e37d2c8219)
+
+## Ablation Study
+
+An ablation study was conducted to analyze how the accuracy changes with different configurations of the neural network:
+
+1. Varying the number of hidden layers.
+2. Varying the number of neurons per layer.
+
+The configurations tested are:
+- 1 hidden layer with 128 neurons.
+- 2 hidden layers with 128 neurons.
+- 1 hidden layer with 64 neurons.
+- 2 hidden layers with 64 neurons.
+
+## Results
+
+The results of the ablation study are as follows:
+
+| Configuration | Test Accuracy |
+|---------------|---------------|
+| 1 layer, 128 neurons | X.XX% |
+| 2 layers, 128 neurons | X.XX% |
+| 1 layer, 64 neurons | X.XX% |
+| 2 layers, 64 neurons | X.XX% |
+
+## Installation
+
+To run this project, you need to have Python 3.x and the following libraries installed:
+
+- TensorFlow
+- NumPy
+- Matplotlib
