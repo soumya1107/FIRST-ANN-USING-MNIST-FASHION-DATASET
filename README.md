@@ -45,10 +45,16 @@ An ablation study was conducted to analyze how the accuracy changes with differe
 2. Varying the number of neurons per layer.
 
 The configurations tested are:
-- 1 hidden layer with 128 neurons.
-- 2 hidden layers with 128 neurons.
-- 1 hidden layer with 64 neurons.
-- 2 hidden layers with 64 neurons.
+ flatten_20 (Flatten)        (None, 784)               0         
+                                                                 
+ dense_54 (Dense)            (None, 240)               188400    
+                                                                 
+ dense_55 (Dense)            (None, 30)                7230      
+                                                                 
+ dense_56 (Dense)            (None, 20)                620       
+                                                                 
+ dense_57 (Dense)            (None, 10)                210       
+                                                              
 
 ## Results
 
@@ -56,10 +62,8 @@ The results of the ablation study are as follows:
 
 | Configuration | Test Accuracy |
 |---------------|---------------|
-| 1 layer, 128 neurons | X.XX% |
-| 2 layers, 128 neurons | X.XX% |
-| 1 layer, 64 neurons | X.XX% |
-| 2 layers, 64 neurons | X.XX% |
+| 4 layers |0.9750000238418579] |
+
 
 ## Installation
 
