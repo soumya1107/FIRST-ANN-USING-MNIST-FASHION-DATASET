@@ -72,3 +72,4 @@ To run this project, you need to have Python 3.x and the following libraries ins
 - TensorFlow
 - NumPy
 - Matplotlib
+- Pandas
